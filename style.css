@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+/* Gaya untuk gambar di dalam .menu-item */
+/* h2 {
+  text-align: center;
+} */
+#kilasbalik h2 {
+  text-align: center;
+}
+
+.tentang-kita h3 {
+  text-align: center;
+}
+.tentang-kita p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.tentang-kita img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Menghilangkan jarak bawah yang mungkin muncul */
+  margin: 0 auto; /* Menengahkan gambar horizontalmente */
+  max-height: 300px; /* Atur tinggi maksimum gambar agar tidak terlalu besar */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
