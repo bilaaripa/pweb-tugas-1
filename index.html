@@ -1,191 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Kos Pak Dar</title>
- </head>
- <body>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kos Dar Website</title>
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
     <header>
-      <h1>Kenal Lebih Dekat Kos Pak Dar dan Para Benalu Didalamnya 😭</h1>
-      <nav>
-        <a href="#member">Member</a>
-        <a href="#kos">Kos</a>
-        <a href="#kontak">Kontak</a>
-      </nav>
-    </header> 
-    <!-- Topbar End -->
+      <a href="#" class="logo">kosDar</a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- header -->
 
-    <!-- Penggunaan img -->
-    <section id="kilasbalik">
-        <h2>Tentang Kos Pak Dar</h2>
-        <div class="tentang-kita">
-            <img src="img/dar.jpeg" alt="Image">
-            <h3>Kilas balik penghuni Kos Pakdar</h3>
-            <p>
-              4 Mahasiwa teknik informatika memutuskan untuk tinggal di <br>
-              Kos Pak Dar.Mereka bernama Baweng, Yusna, Rule dan Bila. <br> 
-              Kos Pak Dar sangat nyaman untuk nugas karena wifi yang kencang <br>
-              dan lingkungan sosial yang sangat suportif. Akibibatnya para kolega <br>
-              4 member tersebut sering bermalam di Kos.Entah sekedar main, nugas,<br>
-              bahkan merayakan hari spesial ditempaat ini<br>
-            </p>
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="satu">Welcome</span>
+          <span class="dua">To</span>
+        </div>
+        <h1>Kos Pak Dar</h1>
+        <h3>Hunian Ternyaman<span> di Keputih</span></h3>
+        <p>
+          Temukan hunian nyaman, aman dan membahagiakan
+          <br />
+          hanya dengan 600 ribu rupiah perbulan dapatkan kepuasan yang anda
+          inginkan
+          <br />
+          kulkas ada, dapur ada, wifi ada, bawa temen cowo? tentu saja boleh
+          <br />
+          dong! asalkan diijinkan pak kos
+        </p>
+      </div>
+    </section>
+    <!-- home section -->
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="img/WhatsApp Image 2023-09-06 at 01.51.35.jpeg" />
+      </div>
+
+      <div class="about-text">
+        <h2>Tentang<span>Kos</span></h2>
+        <h4>Asrama Keraton IKODAR42A</h4>
+        <p>
+          4 Mahasiwa teknik informatika memutuskan untuk tinggal di Kos Pak Dar.
+          Mereka bernama Baweng, Yusna, Rule dan Bila. Kos Pak Dar sangat nyaman
+          untuk nugas karena wifi yang kencang dan lingkungan sosial yang sangat
+          suportif. Akibibatnya para kolega 4 member tersebut sering bermalam di
+          Kos.Entah sekedar main, nugas, bahkan merayakan hari spesial ditempaat
+          ini
+        </p>
+        <a href="#" class="satu">Selengkapnya</a>
+      </div>
+    </section>
+    <!-- about -->
+
+    <!-- service -->
+    <section class="services" id="services">
+      <div class="main-text">
+        <p>Fasilitas Kos</p>
+        <h2><span>Top</span>Fasilitas</h2>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Kulkas</h3>
+          <p>
+            Kulkas 2 pintu dengan yang teknologi biasa aja yang mampu membuat
+            makanan dan minuman menjadi dingin
+            <a href="#" class="read">Read More</a>
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>WIFI</h3>
+          <p>
+            Kulkas 2 pintu dengan yang teknologi biasa aja yang mampu membuat
+            makanan dan minuman menjadi dingin
+            <a href="#" class="read">Read More</a>
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Dapur</h3>
+          <p>
+            Kulkas 2 pintu dengan yang teknologi biasa aja yang mampu membuat
+            makanan dan minuman menjadi dingin
+            <a href="#" class="read">Read More</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- service -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact<span>Us!</span></h2>
+        <h4>Hubungi kami untuk informasi selengkapnya</h4>
+        <p>
+          Bersama IKODAR Temukan hunian nyaman, aman dan membahagiakan, jelajahi
+          keputih dengan tinggal disini
+        </p>
+      </div>
+
+      <div class="contact-icons">
+        <a href="https://www.instagram.com/bilaaripa/" ><i class='bx bxl-instagram' ></i></box-icon></a>
+        <a href="https://tiktok.com/@ceritasibong"><i class='bx bxl-tiktok' ></i></a>
+        <a href="https://github.com/bilaaripa"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/salsabila-fatma-aripa-5ba15a220/"><i class='bx bxl-linkedin-square' ></i></a>
+      </div>
+
+      <div class="contact-form">
+        <form>
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email Address" required>
+            <input type="" placeholder="Your Mobile Phone" required>
+            <textarea name="" id="" cols="" rows="" placeholder="How Can I Help You" required></textarea>
+            <input type="submit" value="Send Message" class="submit" required>
+        </form>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <section class="end">
+        <div class="last-text">
+            <p>Dibuat oleh Salsabila Fatma Aripa 2023</p>
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bx-chevron-up' ></i></a>
         </div>
     </section>
+    <!-- footer -->
 
-    <div class="container">
-
-        <!-- Penggunaan Table -->
-      <section id="member">
-        <h2>Member</h2>
-        <table>
-          <tr>
-            <th>Nama</th>
-            <th>Umur</th>
-            <th colspan="5">Jenis Kelamin</th>
-          </tr>
-          <tr>
-            <td>Rule Lulu</td>
-            <td>20</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Yusna Mil</td>
-            <td>20</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Nadira Baweng</td>
-            <td>20</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Bila</td>
-            <td>20</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Mbak Bela</td>
-            <td>23</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Amy</td>
-            <td>20</td>
-            <td>Perempuan</td>
-          </tr>
-        </table>
-      </section>
-
-      <!-- Penggunaan rowspan -->
-      <section id="beban">
-        <h2>Beban Kosan</h2>
-        <table>
-          <tr>
-            <th>Name</th>
-            <th>Status</td>
-          </tr>
-          <tr>
-            <td>kanza</td>
-            <td rowspan="7">Beban</td>
-          </tr>
-          <tr>
-            <td>iky</td>
-          </tr>
-          <tr>
-            <td>melanie</td>
-          </tr>
-          <tr>
-            <td>nabila</td>
-          </tr>
-          <tr>
-            <td>tsabita</td>
-          </tr>
-          <tr>
-            <td>luna</td>
-          </tr>
-          <tr>
-            <td>dilla</td>
-          </tr>
-        </table>
-
-    <!-- Penggunaan Inputan -->
-      <!-- <input type="text" name="frame">
-      <br>
-      <input type="radio" name="radio" value="Pilihan 1"> Pilihan 1
-      <br>
-      <input type="radio" name="radio" value="Pilihan 2"> Pilihan 2
-      <br>
-      <input type="checkbox" name="checkbox" value="Check1"> Check 1
-      <br>
-      <input type="checkbox" name="checkbox" value="Check2"> Check 2
-      <br>
-      <input type="submit">  -->
-        
-    <!-- Penggunaan Unordered HTML List -->
-      </section>
-      <section id="kos">
-        <h2>Deskripsi Kos</h2>
-        <ul>
-          <li>Kamar Single</li>
-          <li>Kulkas</li>
-          <li>Akses ke Dapur</li>
-          <li>Wi-Fi Gratis</li>
-          <li>Include air dan listrik</li>
-        </ul>
-      </section>
-
-      <!-- Penggunaan Ordered HTML List -->
-      <section>
-        <h2>Aturan Kos</h2>
-        <ol>
-            <li>Kode Kunci Bersifat rahasia, bagi yang menyebarkan kode kunci akan dikeluarkan dari kos</li>
-            <li>Teman laki-laki tidak boleh masuk kecuali diberikan izin oleh bapak kos</li>
-            <li>Menjaga ketertiban, kenyamana, kemananan dan kebersihan</li>
-          </ol>
-      </section>
-
-      <section id="kontak">
-        <h2>Kontak</h2>
-        <p>Alamat: Keputih Peristis Gang IA No. 42A</p>
-        <p>Email: kos.pakdar@example.com</p>
-      </section>
-
-      <!-- Penggunaan elemen iframe -->
-      <section id="peta">
-        <h2>Peta Lokasi</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8927299581637!2d106.82782891402268!3d-6.208816795494195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a02e429bba37f%3A0x8ef456caaa83a318!2sKos%20Pak%20Dar!5e0!3m2!1sen!2sid!4v1630853783199!5m2!1sen!2sid"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </section>
-
-      <!-- Penggunaan elemen audio -->
-      <section id="audio">
-        <h2>Dengarkan Lagu Berikut</h2>
-        <audio controls>
-          <source src="audio/LE SSERAFIM - UNFORGIVEN (feat. Nile Rodgers) [128 kbps].mp3" type="audio/mp3" />
-        </audio>
-      </section>
-
-      <!-- Penggunaan elemen video -->
-      <section id="video">
-        <h2>C25 Diangkat</h2>
-        <video controls width="400">
-          <source src="video/VID-20221110-WA0067.mp4" type="video/mp4" />
-        </video>
-      </section>
-
-          <!-- Penggunaan elemen Link -->
-        <section>
-            <h2>Tutorial tidur tepat waktu</h2>
-            <a href="https://youtu.be/QfbUjLW5AYg?si=MKdBZ9voaA7-LpoR">Mengatasi Insomnia</a>
-        </section>
-    </div>
+    <!-- custom js link -->
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
